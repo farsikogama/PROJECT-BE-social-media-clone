@@ -1,0 +1,24 @@
+2021-10-05 06:23:50.776 +07 [1200] LOG:  starting PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit
+2021-10-05 06:23:50.782 +07 [1200] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-05 06:23:50.782 +07 [1200] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-05 06:23:50.853 +07 [13968] LOG:  database system was interrupted; last known up at 2021-05-28 19:18:52 +07
+2021-10-05 06:23:51.515 +07 [13968] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-05 06:23:51.520 +07 [13968] LOG:  redo starts at 0/19DE980
+2021-10-05 06:23:51.520 +07 [13968] LOG:  invalid record length at 0/19DEA68: wanted 24, got 0
+2021-10-05 06:23:51.520 +07 [13968] LOG:  redo done at 0/19DEA30
+2021-10-05 06:23:51.592 +07 [1200] LOG:  database system is ready to accept connections
+2021-10-05 06:26:49.540 +07 [15148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-10-05 07:12:57.825 +07 [620] LOG:  starting PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit
+2021-10-05 07:12:57.831 +07 [620] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-05 07:12:57.831 +07 [620] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-05 07:12:57.992 +07 [9208] LOG:  database system was interrupted; last known up at 2021-10-05 06:31:49 +07
+2021-10-05 07:12:58.461 +07 [9208] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-05 07:12:58.465 +07 [9208] LOG:  redo starts at 0/19DFA20
+2021-10-05 07:12:58.466 +07 [9208] LOG:  invalid record length at 0/19DFB08: wanted 24, got 0
+2021-10-05 07:12:58.466 +07 [9208] LOG:  redo done at 0/19DFAD0
+2021-10-05 07:12:58.547 +07 [620] LOG:  database system is ready to accept connections
+2021-10-05 07:13:01.332 +07 [14228] ERROR:  database "social_media_db" already exists
+2021-10-05 07:13:01.332 +07 [14228] STATEMENT:  CREATE DATABASE "social_media_db"
+2021-10-05 07:13:01.337 +07 [14228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
